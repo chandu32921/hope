@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://cdn.wallpapersafari.com/33/68/bsiXAG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.text-container {
+  background: rgba(255, 255, 255, 0); /* Adjust alpha for transparency */
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
